@@ -221,3 +221,9 @@ label, legend, fieldset {
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
+
+/* Personal modifications */
+body {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
