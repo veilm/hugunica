@@ -1,0 +1,8 @@
+<h1>hugo: This is a list page.</h1>
+
+{{ .Content -}}
+<ul>
+{{- range.Pages }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ end -}}
+</ul>
