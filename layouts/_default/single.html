@@ -1,3 +1,4 @@
-<h1>hugo: This is a single page.</h1>
-
-{{ .Content -}}
+{{ partial "header" . }}
+		<h1>hugo: This is a single page.</h1>
+		{{ .Content -}}
+{{ partial "footer" . }}
