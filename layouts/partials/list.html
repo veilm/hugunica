@@ -1,6 +1,10 @@
+<h1>{{ .Title }}</h1>
+<a href="..">Home</a>
+<hr>
+
 {{ .Content -}}
 <ul>
 {{- range.Pages }}
-	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	<li>{{ .Date.Format "2006-01-02" }}: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 {{ end -}}
 </ul>
