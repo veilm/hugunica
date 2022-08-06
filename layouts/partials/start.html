@@ -4,6 +4,19 @@
 <meta charset="utf-8">
 <link href="/sakura.css" rel="stylesheet">
 
+{{ if .IsHome }}
+<!-- Link separation -->
+<style>
+	p {
+		margin-bottom: 1rem;
+	}
+
+	a {
+		margin-left: 5px;
+	}
+</style>
+{{ end }}
+
 <title>{{ .Title }}</title>
 </head>
 <body>
