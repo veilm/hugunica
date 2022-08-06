@@ -1,5 +1,5 @@
 name = "Hugunica"
-license = "AGPLv3"
+license = "Apache-2.0"
 licenselink = "https://github.com/michaelskyba/hugunica/blob/main/LICENSE"
 description = "The Dragon (Hugo) Theme of Hugunica"
 min_version = "0.41.0"
