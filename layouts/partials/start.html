@@ -17,6 +17,6 @@
 </style>
 {{ end }}
 
-<title>{{ .Title }}</title>
+<title>{{ .Title }}{{ with .Title }} | {{ end }}{{ .Site.Title }}</title>
 </head>
 <body>
