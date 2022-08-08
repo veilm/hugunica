@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link href="/sakura.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<meta name="description" content="{{ .Summary }}">
+
+<link rel="canonical" href="{{ .Site.BaseURL }}">
+<link rel="icon" href="/favicon.png">
+<link href="/sakura.css" type="text/css" rel="stylesheet">
 
 {{ if .IsHome }}
 <!-- Link separation -->
@@ -12,7 +17,7 @@
 	}
 
 	a {
-		margin-left: 5px;
+		margin-left: 10px;
 	}
 </style>
 {{ end }}
