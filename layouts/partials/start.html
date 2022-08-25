@@ -14,5 +14,7 @@
 {{ end }}
 
 <title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+
+{{ partial "extra_head" . }}
 </head>
 <body>
