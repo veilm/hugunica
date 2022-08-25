@@ -10,9 +10,9 @@
 <link rel="stylesheet" href="/sakura.css" type="text/css">
 
 {{ with .Params.customCSS }}
-<link rel="stylesheet" href="/{{ .Params.customCSS }}" type="text/css">
+<link rel="stylesheet" href="/{{ . }}" type="text/css">
 {{ end }}
 
-<title>{{ .Title }}{{ with .Title }} | {{ end }}{{ .Site.Title }}</title>
+<title>{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
 </head>
 <body>
