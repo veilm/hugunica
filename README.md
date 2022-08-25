@@ -11,6 +11,11 @@ git submodule add https://github.com/michaelskyba/hugunica themes/hugunica
 echo "theme = \"hugunica\"" >> config.toml
 ```
 
+## Front matter
+Besides the default, I've set up a system in the ``start`` partial using the
+``customCSS`` front matter. Whatever it is set to will be used a style for that
+markdown content.
+
 ## Shortcodes
 ### Class image: ``cimg``
 Normal images can be done in markdown with ``![alt](src)``, but that doesn't let

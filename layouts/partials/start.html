@@ -7,19 +7,10 @@
 
 <link rel="canonical" href="{{ .Site.BaseURL }}">
 <link rel="icon" href="/favicon.png">
-<link href="/sakura.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="/sakura.css" type="text/css">
 
-{{ if .IsHome }}
-<!-- Link separation -->
-<style>
-	p {
-		margin-bottom: 1rem;
-	}
-
-	a {
-		margin-left: 10px;
-	}
-</style>
+{{ with .Params.customCSS }}
+<link rel="stylesheet" href="/{{ .Params.customCSS }}" type="text/css">
 {{ end }}
 
 <title>{{ .Title }}{{ with .Title }} | {{ end }}{{ .Site.Title }}</title>
