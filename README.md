@@ -20,7 +20,7 @@ markdown content.
 ### Class image: ``cimg``
 Normal images can be done in markdown with ``![alt](src)``, but that doesn't let
 you specify a class. With cimg, you can use ``{{< cimg src class alt >}}``
-inside your .md content. Then, you can modify it from /static/sakura.css.
+inside your .md content. Then, you can modify it from /static/main.css.
 
 ### Hugo's built-in shortcodes
 https://gohugo.io/content-management/shortcodes/
