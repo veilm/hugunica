@@ -19,3 +19,6 @@
 {{ partial "extra_head" . }}
 </head>
 <body>
+{{ if .IsHome }}
+<canvas id="snow"></canvas>
+{{ end }}
